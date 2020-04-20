@@ -1,0 +1,14 @@
+
+server:
+	port: 8080
+
+cloud:
+	aws:
+		region:
+			static: us-east-1 //Default
+			auto: True //Caso mantenha o us-east-1, setar a flag como False
+		Credentials:
+			access-key: //Inserir o access-key
+			secret-key: //Inserir o private-key
+		end-point:
+			uri: //Inserir o endpoint uri
